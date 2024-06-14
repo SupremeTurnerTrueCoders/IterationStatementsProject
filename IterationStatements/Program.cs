@@ -78,7 +78,7 @@ namespace IterationStatements
             for (int i = 199; i <= numbers.Count && num >= 0; num-- ) 
             {
                 // place numbers[i] inside of the Console.WriteLine() method
-                Console.WriteLine($"{numbers[199]}");
+                Console.WriteLine($"{numbers[i]}");
             }
 
             //------------End of exercise
