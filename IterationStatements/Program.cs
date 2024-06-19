@@ -40,7 +40,7 @@ namespace IterationStatements
 
             // Create a while loop
             // <--- While num is less than 200
-            while (num < 200) { }
+            while (num < 200) 
             {
                 // Increment num by 1
                 num++;
@@ -75,7 +75,7 @@ namespace IterationStatements
             // Decrement i by 1
 
             //start for loop here
-            for (int i = 199; i <= numbers.Count && num >= 0; num-- ) 
+            for (int i = 199; i <= numbers.Count && i >= 0; i-- ) 
             {
                 // place numbers[i] inside of the Console.WriteLine() method
                 Console.WriteLine($"{numbers[i]}");
